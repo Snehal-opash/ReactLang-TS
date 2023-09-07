@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { clearState } from "../redux/slices";
 import { useNavigate } from "react-router-dom";
 import pass from "../images/pass.gif";
-import fail from "../images/Fail.png";
+import fail from "../images/fail.gif";
 import { countMatchingElements } from "../utils/features";
 
 const Result = () => {
