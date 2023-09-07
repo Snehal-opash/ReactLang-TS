@@ -9,8 +9,8 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import { clearState } from "../redux/slices";
 import { useNavigate } from "react-router-dom";
-import OMG_PASS from "../images/OMG_passed.jpg";
-import FAIL_EXAM from "../images/Fail.png";
+import pass from "../images/pass.gif";
+import FAIL_EXAM from "../images/fail.gif";
 import { countMatchingElements } from "../utils/features";
 
 const Result = () => {
@@ -78,8 +78,8 @@ const Result = () => {
               <br />
               <img
                 style={{ width: "200px", height: "200px" }}
-                src={`${OMG_PASS}`}
-                srcSet={`${OMG_PASS}`}
+                src={`${pass}`}
+                srcSet={`${pass}`}
                 alt={"OMG_PASS"}
                 loading="lazy"
               />
