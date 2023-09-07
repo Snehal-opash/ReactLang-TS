@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { clearState } from "../redux/slices";
 import { useNavigate } from "react-router-dom";
 import pass from "../images/pass.gif";
-import FAIL_EXAM from "../images/fail.gif";
+import fail from "../images/Fail.png";
 import { countMatchingElements } from "../utils/features";
 
 const Result = () => {
@@ -90,9 +90,9 @@ const Result = () => {
               <br />
               <img
                 style={{ width: "200px", height: "200px" }}
-                src={`${FAIL_EXAM}`}
-                srcSet={`${FAIL_EXAM}`}
-                alt={"FAIL_EXAM"}
+                src={`${fail}`}
+                srcSet={`${fail}`}
+                alt={"fail"}
                 loading="lazy"
               />
             </>
